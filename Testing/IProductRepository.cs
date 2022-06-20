@@ -6,6 +6,7 @@ namespace Testing
     public interface IProductRepository
     {
         public Product GetProduct(int id);
+        public void UpdateProduct(Product product);
         public IEnumerable<Product> GetAllProducts();
     }
 }
